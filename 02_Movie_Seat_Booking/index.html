@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Movie Seat Booking</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="input" class="input">
+            <label for="cars">Pick a movie:</label>
+            <select id="movies" name="movies">
+                <option value="The Dark Knight($12)">The Dark Knight($12)</option>
+                <option value="Godfather ($10)">Godfather ($10)</option>
+                <option value="Shawshank Redemption ($15)">Shawshank Redemption ($15)</option>
+                <option value="1917 ($8)">1917 ($8)</option>
+            </select>
+        </div>
+        <div id="legend" class="legend">
+            <i class="fas fa-square na"></i>
+            <span>N/A</span>
+            <i class="fas fa-square selected"></i>
+            <span>Selected</span>
+            <i class="fas fa-square occupied"></i>
+            <span>Occupied</span>
+        </div>
+        <div id="screen" class="screen">
+        </div>
+        <div id="layout" class="layout">
+            <div class="seat-containers">
+                <div class="item-1">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-2">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-3">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-4">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-5">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-6">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-7">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-8">
+                    <i class="fas fa-square"></i>
+                </div>
+            </div>
+            <div class="seat-containers">
+                <div class="item-1">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-2">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-3">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-4">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-5">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-6">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-7">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-8">
+                    <i class="fas fa-square"></i>
+                </div>
+            </div>
+            <div class="seat-containers">
+                <div class="item-1">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-2">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-3">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-4">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-5">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-6">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-7">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-8">
+                    <i class="fas fa-square"></i>
+                </div>
+            </div>
+            <div class="seat-containers">
+                <div class="item-1">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-2">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-3">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-4">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-5">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-6">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-7">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-8">
+                    <i class="fas fa-square"></i>
+                </div>
+            </div>
+            <div class="seat-containers">
+                <div class="item-1">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-2">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-3">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-4">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-5">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-6">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-7">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-8">
+                    <i class="fas fa-square"></i>
+                </div>
+            </div>
+            <div class="seat-containers">
+                <div class="item-1">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-2">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-3">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-4">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-5">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-6">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-7">
+                    <i class="fas fa-square"></i>
+                </div>
+                <div class="item-8">
+                    <i class="fas fa-square"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
